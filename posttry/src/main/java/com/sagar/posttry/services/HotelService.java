@@ -17,4 +17,9 @@ public class HotelService {
         hotelList.add(hotel);
         hashMap.put(hotel.getId(), hotel);
     }
+
+    public Hotel getHotelById(String id) {
+        if (hashMap.containsKey(id)) return hashMap.get(id);
+        else return null;
+    }
 }
