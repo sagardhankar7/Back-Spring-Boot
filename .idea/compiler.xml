@@ -7,11 +7,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="posttry" />
+        <module name="MovieBooking" />
+        <module name="RailwayTicket" />
+        <module name="hotel" />
+        <module name="RailwayAndMeal (1)" />
+        <module name="RailwayTicket (1)" />
+        <module name="RailwayAndMeal" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MovieBooking" options="-parameters" />
+      <module name="RailwayAndMeal" options="-parameters" />
+      <module name="RailwayAndMeal (1)" options="-parameters" />
+      <module name="RailwayTicket" options="-parameters" />
+      <module name="RailwayTicket (1)" options="-parameters" />
+      <module name="hotel" options="-parameters" />
       <module name="posttry" options="-parameters" />
     </option>
   </component>

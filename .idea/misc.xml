@@ -9,6 +9,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/posttry/pom.xml" />
+        <option value="$PROJECT_DIR$/Railway 1 Template/pom.xml" />
+        <option value="$PROJECT_DIR$/Railway 2 Template/pom.xml" />
+        <option value="$PROJECT_DIR$/Implementing Exception Handling/pom.xml" />
+        <option value="$PROJECT_DIR$/Railway 3 Template/pom.xml" />
+        <option value="$PROJECT_DIR$/Railway 4 Application Template/pom.xml" />
+        <option value="$PROJECT_DIR$/MovieBookingAPI/pom.xml" />
       </list>
     </option>
   </component>
