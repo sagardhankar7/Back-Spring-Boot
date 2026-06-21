@@ -8,19 +8,27 @@
         <outputRelativeToContentRoot value="true" />
         <module name="posttry" />
         <module name="MovieBooking" />
+        <module name="Meal" />
         <module name="RailwayTicket" />
+        <module name="RailwayAndMeal (2)" />
         <module name="hotel" />
         <module name="RailwayAndMeal (1)" />
         <module name="RailwayTicket (1)" />
         <module name="RailwayAndMeal" />
+        <module name="RailwayAndMeal (4)" />
+        <module name="RailwayAndMeal (3)" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Meal" options="-parameters" />
       <module name="MovieBooking" options="-parameters" />
       <module name="RailwayAndMeal" options="-parameters" />
       <module name="RailwayAndMeal (1)" options="-parameters" />
+      <module name="RailwayAndMeal (2)" options="-parameters" />
+      <module name="RailwayAndMeal (3)" options="-parameters" />
+      <module name="RailwayAndMeal (4)" options="-parameters" />
       <module name="RailwayTicket" options="-parameters" />
       <module name="RailwayTicket (1)" options="-parameters" />
       <module name="hotel" options="-parameters" />

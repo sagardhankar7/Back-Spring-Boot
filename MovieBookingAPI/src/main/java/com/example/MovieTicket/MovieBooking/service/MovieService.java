@@ -43,7 +43,7 @@ public class MovieService {
 
     }
 
-    public void deleteById(String id) {
+    public void deleteMovie(String id) {
         if (!movieHashMap.containsKey(id)) throw new IdNotFound();
         Movie movie = movieHashMap.get(id);
         movies.remove(movie);
